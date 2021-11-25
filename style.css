@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+
+  background-color: #2C272E;
+  background-image: url(lille.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   transition: all 5s ease;
+}
+
+.text {
+
+  min-height: 40em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #2C272E;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #3a3a3a4d;
+  padding: 1em;
+  color: white;
+  margin-left: 200px;
+   margin-top: 100px;
+  margin-right: 200px;
+   font-family: 'Inter', sans-serif;
+   animation: slide 2s;
+
+}
+
+.A1 {
+
+  margin-left: 2rem;
+  text-decoration: underline;
+  font-size: 35px;
+  animation: slide 2s;
+   opacity: 1;
+      transition: all 1s ease;
+}
+
+.A2 {
+  margin-left: 3rem;
+  text-decoration: underline;
+  font-size: 25px;
+  animation: slide 2s;
+   opacity: 1;
+
+}
+
+.A3 {
+  margin-left: 3rem;
+
+  font-size: 20px;
+  animation: slide 2s;
+   opacity: 1;
+
+}
+
+a {
+
+    min-height: 1em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #3a3a3a4d;
+  padding: 1em;
+  color: white;
+  margin-right: 46em;
+  margin-left: 3rem;
+text-decoration: none;
+   font-family: 'Inter', sans-serif;
+transition: all 5s ease;
+}
+
+a:hover{
+
+
+color: black;
+background-color: white;
+
+}
+
+
+@keyframes slide {
+
+
+  from {
+    opacity: 0;
+    
+
+
+  }
+
+  to {
+    opacity: 1;
+
+  }
+}
+
+body.ui {
+
+ background-image: lille2.jpg;
+ transition: all 5s ease;
+}
+
+.A1.aqw {
+
+  color: red;
+  transition: all 1s ease;
+}
